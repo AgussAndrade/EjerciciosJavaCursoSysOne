@@ -1,0 +1,39 @@
+1)Realizar un programa que implemente una estructura polimórfica  cuya finalidad es calcular y listar los sueldos de los siguientes tipos de empleados:
+
+
+    • Administrativo
+    • Programador
+    • Operario
+
+El sueldo de un administrativo se calcula sobre un valor básico, mas :
+
+    • 5000 pesos si su antigüedad es mayor a 3 y menor o igual a 5 años
+    • 10000 si su antigüedad es mayor o igual a 5 años.
+
+El sueldo de un programador se calcula sobre un valor básico mas
+
+    • 5000 pesos si su antigüedad es mayor a 3 y menor o igual a 5 años
+    • 10000 si su antigüedad es mayor o igual a 5 años.
+    • 30000  pesos si cumple con la cantidad de funcionalidad comprometidas.
+
+
+El sueldo de un operario se calcula  sobre un  básico mas
+
+    • 5000 pesos, si su antigüedad es mayor a 3 y meno o igual a 5 años
+    • 10000 si su antigüedad es mayor o igual a 5 años.
+    • 15000 pesos si su asistencia es mayor o igual al 85%
+    • 30000 si su asistencia en perfecta
+La información a listar es:
+
+    • Nombre y Apellido
+    • DNI
+    • Legajo
+    • Sueldo
+
+
+2) Agregar un método que calcule la edad del empleado y agregarlo a la lista.
+
+3) Armar la misma solución implementando interfaces.
+
+4)Implementar el listado con ArrayList();
+
