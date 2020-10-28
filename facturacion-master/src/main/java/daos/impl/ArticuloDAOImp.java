@@ -86,7 +86,7 @@ public class ArticuloDAOImp implements ArticuloDAO {
         try{
 
             String consulta=  "update  Articulo set descripcion = " + articulo.getDescripcion() +
-                                              "set precio =  " + articulo.getPrecio() +
+                                              ", set precio =  " + articulo.getPrecio() +
                                               " where id = " + articulo.getIdArticulo() ;
 
             Statement sentencia = conn.createStatement();

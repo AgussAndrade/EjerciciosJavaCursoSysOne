@@ -4,11 +4,10 @@ public class Cliente {
 
     private String nombre;
     private String apellido;
-    private String razonSocial;
+
     private int id;
-
+    private String razonSocial;
     private String cuit;
-
 
 
 

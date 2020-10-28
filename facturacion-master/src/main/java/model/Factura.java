@@ -54,7 +54,7 @@ public class Factura {
     }
 
 
-    public Float calcularFactura(){
+    public void calcularFactura(){
 
        Iterator<FacturaItem> it = items.iterator();
        Float sumaTotal = 0F;
@@ -74,7 +74,6 @@ public class Factura {
        }
 
         System.out.println("\n Total : " + sumaTotal);
-       return sumaTotal;
 
     }
 
